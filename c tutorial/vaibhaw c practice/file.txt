@@ -1,0 +1,21 @@
+my name is ankur raj
+my age is 22 years old
+ #include<stdio.h>
+ int a, b, c = 0;
+
+void prtFun (void);
+
+int main ()
+
+{ auto int a = 2; /* line 1 */ prtFun(); 
+a += 1; prtFun();
+
+printf ("%d%d",a,b); }
+
+void prtFun (void)
+
+{
+
+register int a = 1; /* line 2 */ int b = 2; a += ++b;
+
+printf ("%d%d", a, b); }
